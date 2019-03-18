@@ -53,3 +53,28 @@ I do not do the whole reading any justice and meerly pull out two striking quote
 ## Method
 For this project I resorted to my old ways of scraping together whatever I find to make thing move and work. 
 Surprise surprise! this was a completely unworkable approach and I doubled down on the nonsense the more it failed. It took till the very end for me to learn my lesson and clean up my act. For instance ditching the first DC motor plus tire approach for a more predictable stepper motor and linkage. In the end I learned the value of strategic planing and design even though the artist within me is dying to staple-gun a bunch of shit together and pray it works.
+## Documentation Videos
+
+> coming soon!
+
+# Final Proposal
+This project builds upon an old project I briefly worked on and abandoned.
+When I first met a contact mic, I was thoroughly impressed and confused how I had lived without hearing of these magical things.
+My first few experiments involved no micro-controllers and were just an exploration of different materials’ capability to transfer vibrations. A few months later once I learned how to interface the Arduino with OSC enabled software a whole new world was opened up for me.
+Following few experiments, I was part of a flash show in collaboration with TWR radio in SFAI and installed a visualization of the vibrational data from around campus. [link to project.](http://twr.sfai.edu/nvj.html)
+I enjoyed this process but ultimately moved on. Fast forward to today and a few developments have caught my eye. The first is a fantastic new micro-controller I had a chance to play with at one of my jobs called the ESP32. Basically a beast packing a lot of processing power as well as WiFi and Bluetooth capabilities all on a $2 board!(Economies of scale) 
+The second being some tools I had a chance to play with that make the process of creation and deployment of machine learning easy(ish).
+
+Now, I’m thinking what if I had a network of Piezo pics in my home, attached to every surface. What if I then used ML to train my computer to discern between taping my fridge and scratching my cabinets. Basically the transformation of almost anything as an input device. I find this idea quite fascinating.
+I could have sworn I saw a similar idea made a few months back but can’t seem to find it. I did find a few science papers on exactly what I’m talking about but so far no finished(ish) consumer available goods.
+
+## Proposal
+I would like to make a simple [Esp32](https://www.amazon.com/Espressif-ESP32-ESP32-DEVKITC-ESP-WROOM-32-soldered/dp/B01N0SB08Q) + [Piezo](https://www.adafruit.com/product/1740) mic circuit and use Machine Learning or similar [tools](http://www.wekinator.org/) to ‘teach’ a system various gestures.
+
+For instance a user can attach this to their office / home desk and train the system to pick p a number of gestures such as light taps or rhythmic interactions and use say, a service like [IFTTT](https://ifttt.com/) to control various tasks from smart home automation to emailing colleagues.
+
+The hardware part I have few fears about, in the end the large part of this product is going to be the software and I have a few leads in the right direction. The full extent of what is possible and what is not should manifest itself in the initial weeks of this project allowing me to adjust my goals or expectations accordingly.
+
+## Initial Circuit plan
+<img width="1039" alt="Screen Shot 2019-03-17 at 8 04 04 PM" src="https://user-images.githubusercontent.com/47313658/54504199-dfc31b00-48ef-11e9-9df9-926edf3dc195.png">
+ 
