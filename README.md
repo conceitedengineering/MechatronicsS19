@@ -77,4 +77,93 @@ The hardware part I have few fears about, in the end the large part of this prod
 
 ## Initial Circuit plan
 <img width="1039" alt="Screen Shot 2019-03-17 at 8 04 04 PM" src="https://user-images.githubusercontent.com/47313658/54504199-dfc31b00-48ef-11e9-9df9-926edf3dc195.png">
- 
+
+## Fake Code for aesthetic
+```javascript
+// Include Libraries
+#include "Arduino.h"
+#include "PiezoSensor.h"
+
+
+// Pin Definitions
+#define PIEZOSENSOR_PIN_POS	12
+
+
+
+// Global variables and defines
+
+// object initialization
+PiezoSensor piezoSensor(PIEZOSENSOR_PIN_POS);
+
+
+// define vars for testing menu
+const int timeout = 10000;       //define timeout of 10 sec
+char menuOption = 0;
+long time0;
+
+// Setup the essentials for your circuit to work. It runs first every time your circuit is powered with electricity.
+void setup() 
+{
+    // Setup Serial which is useful for debugging
+    // Use the Serial Monitor to view printed messages
+    Serial.begin(9600);
+    while (!Serial) ; // wait for serial port to connect. Needed for native USB
+    Serial.println("start");
+    
+    
+    menuOption = menu();
+    
+}
+
+// Main logic of your circuit. It defines the interaction between the components you selected. After setup, it runs over and over again, in an eternal loop.
+void loop() 
+{
+    
+    
+    if(menuOption == '1') {
+    // Piezo Element - Test Code
+    int piezoSensorVal = piezoSensor.read();
+    Serial.print(F("Val: ")); Serial.println(piezoSensorVal);
+
+    }
+    
+    if (millis() - time0 > timeout)
+    {
+        menuOption = menu();
+    }
+    
+}
+
+
+
+// Menu function for selecting the components to be tested
+// Follow serial monitor for instrcutions
+char menu()
+{
+
+    Serial.println(F("\nWhich component would you like to test?"));
+    Serial.println(F("(1) Piezo Element"));
+    Serial.println(F("(menu) send anything else or press on board reset button\n"));
+    while (!Serial.available());
+
+    // Read data from serial monitor if received
+    while (Serial.available()) 
+    {
+        char c = Serial.read();
+        if (isAlphaNumeric(c)) 
+        {   
+            
+            if(c == '1') 
+    			Serial.println(F("Now Testing Piezo Element"));
+            else
+            {
+                Serial.println(F("illegal input!"));
+                return 0;
+            }
+            time0 = millis();
+            return c;
+        }
+    }
+}
+
+```
