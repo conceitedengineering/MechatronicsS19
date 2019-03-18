@@ -16,10 +16,10 @@ Access to Laser cutter
 Nuts and Bolt of any size so long as your drawings reflect the right size.
 
 <H2>Process Shots:</H2>
-￼￼<img src="(https://user-images.githubusercontent.com/47313658/54501587-5f96b880-48e3-11e9-8bc4-912f8ce14716.jpg)" alt="Various LaserCut parts">
-<img src="(https://user-images.githubusercontent.com/47313658/54501624-8e149380-48e3-11e9-8d85-d059e1a7e4ee.jpg)" alt="Screenshot of Fusion360">
-
-
+![GitHub Logo](https://user-images.githubusercontent.com/47313658/54501587-5f96b880-48e3-11e9-8bc4-912f8ce14716.jpg)
+Format: ![Alt Text](url)
+![GitHub Logo]((https://user-images.githubusercontent.com/47313658/54501587-5f96b880-48e3-11e9-8bc4-912f8ce14716.jpg))
+Format: ![Alt Text](url)
 
 <H2>Acknowledgments</H2>
 	<p>•	http://507movements.com/ (Obvi)</p>
