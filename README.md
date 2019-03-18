@@ -14,11 +14,13 @@ Cut final parts, test with regular nuts first then move to locknut and grease to
 Fusion360(mostly free)
 Access to Laser cutter
 Nuts and Bolt of any size so long as your drawings reflect the right size.
-Process Shots:
+
+<H2>Process Shots:</H2>
 ￼￼
 
+
 <H2>Acknowledgments</H2>
-	•	http://507movements.com/ (Obvi)
-	•	<a href="https://www.noisebridge.net/">Noisebridge</a> is a free(donation based, no one turned away) Hackerspace in the Mission.
+	<p>•	http://507movements.com/ (Obvi)</p>
+	<p>•	<a href="https://www.noisebridge.net/">Noisebridge</a> is a free(donation based, no one turned away) Hackerspace in the Mission.</p>
 
 
