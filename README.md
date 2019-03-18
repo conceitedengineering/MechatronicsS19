@@ -11,12 +11,14 @@ Assemble, test and iterate.
 Cut final parts, test with regular nuts first then move to locknut and grease to wrap up.
 
 <H2>Tools needed</H2>
-Fusion360(mostly free)
+Adobe Fusion360(mostly free)
 Access to Laser cutter
 Nuts and Bolt of any size so long as your drawings reflect the right size.
 
 <H2>Process Shots:</H2>
-￼￼
+￼￼<img src="(https://user-images.githubusercontent.com/47313658/54501587-5f96b880-48e3-11e9-8bc4-912f8ce14716.jpg" alt="Various LaserCut parts">
+<img src="(https://user-images.githubusercontent.com/47313658/54501624-8e149380-48e3-11e9-8d85-d059e1a7e4ee.jpg" alt="Screenshot of Fusion360">
+
 
 
 <H2>Acknowledgments</H2>
