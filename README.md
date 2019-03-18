@@ -25,4 +25,13 @@ Nuts and Bolt of any size so long as your drawings reflect the right size.
 	<p>•	http://507movements.com/ (Obvi)</p>
 	<p>•	<a href="https://www.noisebridge.net/">Noisebridge</a> is a free(donation based, no one turned away) Hackerspace in the Mission.</p>
 
+# HandCrank Week 2
+Mostly just moving from early prototype cardboard and MDF to finished black plexiglass . 
 
+![IMG_9544](https://user-images.githubusercontent.com/47313658/54502286-17799500-48e7-11e9-9a65-aa51f5e1fe4f.JPG)
+
+![IMG_9547](https://user-images.githubusercontent.com/47313658/54502330-46900680-48e7-11e9-9665-90423741dc0b.JPG)
+
+## Demonstration Video of end result
+
+[link to video!](https://drive.google.com/file/d/1mSc1XzzPOMfCjuESsQyoCMMJZz72qq9C/view?usp=sharing)
